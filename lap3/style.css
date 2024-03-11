@@ -1,0 +1,164 @@
+.BlogComponent {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    background: white;
+}
+.Rectangle1 {
+    width: 1488px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border: 0.5px rgba(0, 0, 0, 0.13) solid;
+}
+.Frame1 {
+    left: 634px;
+    top: 29px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    display: inline-flex;
+}
+.facebook {
+    color: black;
+    font-size: 11px;
+    font-family: Montserrat;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+    word-wrap: break-word;
+}
+.instagram {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 11px;
+    font-family: Montserrat;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+    word-wrap: break-word;
+}
+.Hakkimda {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 11px;
+    font-family: Montserrat;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+    word-wrap: break-word;
+}
+.about {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 11px;
+    font-family: Montserrat;
+    font-weight: 500;
+    letter-spacing: 2.2px;
+    word-wrap: break-word;
+}
+.LetM {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 11px;
+    font-family: Montserrat;
+    font-weight: 500;
+    letter-spacing: 2.2px;
+    word-wrap: break-word;
+}
+.Lifestyle {
+    left: 60px;
+    top: 20px;
+    position: absolute;
+}
+.life {
+    color: black;
+    font-size: 24px;
+    font-family: Cormorant Garamond;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.style {
+    color: black;
+    font-size: 24px;
+    font-family: Cormorant Garamond;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.Frame2 {
+    width: 400px;
+    height: 490px;
+    top: 100px;
+    position: relative;
+}
+.Frame5 {
+    width: 901px;
+    height: 103px;
+    left: -1px;
+    top: 0px;
+    position: absolute;
+    background: linear-gradient(
+        183deg,
+        rgba(0, 0, 0, 0.22) 0%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+.Frame6 {
+    width: 901px;
+    height: 238px;
+    left: 900px;
+    top: 490px;
+    position: absolute;
+    transform: rotate(180deg);
+    transform-origin: 0 0;
+    background: linear-gradient(
+        183deg,
+        rgba(0, 0, 0, 0.34) 0%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+.pic {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.DoAlMakyajTYolar {
+    left: 520px;
+    top: 600px;
+    position: absolute;
+    color: black;
+    font-size: 65px;
+    font-family: Cormorant Garamond;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.HazRan2021SudenurTokgZ {
+    left: 600px;
+    top: 690px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    letter-spacing: 2.2px;
+    word-wrap: break-word;
+}
+.Frame3 {
+    width: 400px;
+    height: 490px;
+    top: 100px;
+    position: relative;
+}
+.Frame4 {
+    width: 400px;
+    height: 490px;
+    top: 100px;
+    position: relative;
+}
+.EiSearch {
+    width: 24px;
+    height: 24px;
+    left: 1390px;
+    top: 23px;
+    position: absolute;
+}
+img {
+    width: 400px;
+    height: 490px;
+}

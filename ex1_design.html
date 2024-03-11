@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/ex1_design.css" />
+        <title>Design</title>
+    </head>
+    <body>
+        <div class="pic">
+            <img
+                class="img_figma"
+                src="./assets/img/Ảnh chụp màn hình 2023-12-23 162530.png"
+                alt=""
+            />
+            <button class="btn" onclick="downloadImageFigma()">Download</button>
+            <button class="btn type">
+                <a
+                    style="color: #6d95fc"
+                    href="https://www.figma.com/file/BRnmrNmCDnZUX3z7iIhYn6/Untitled?type=design&node-id=0%3A1&mode=design&t=7wH8T2mrvcuFsbUc-1"
+                    >Go To Figma</a
+                >
+            </button>
+        </div>
+        <script>
+            function downloadImageFigma() {
+                var imageUrl =
+                    "./assets/img/Ảnh chụp màn hình 2023-12-23 162530.png";
+                var link = document.createElement("a");
+                link.href = imageUrl;
+                link.download = "downloaded_figma_design.jpg";
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
+        </script>
+    </body>
+</html>

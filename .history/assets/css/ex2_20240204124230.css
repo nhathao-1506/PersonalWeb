@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins";
+    background-color: #000;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 206px;
+    margin-top: 25px;
+}
+
+.logo {
+    display: flex;
+    width: 244px;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    margin-left: 271px;
+}
+
+.creatic {
+    width: 222px;
+    height: 66px;
+    color: #6d95fc;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.25px;
+    text-transform: uppercase;
+}
+
+.agency {
+    width: 174px;
+    height: 23px;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.66px;
+}
+
+.nav {
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    gap: 17px;
+}
+
+.type {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.type2 {
+    display: flex;
+    width: 143px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header_content {
+    width: 1920px;
+    height: 892px;
+    flex-shrink: 0;
+    display: flex;
+    background-image: url(/assets/img/beautiful-woman-with-big-jewel\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 761px 105px;
+}
+
+.content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 43px;
+    margin-top: 185px;
+    margin-left: 271px;
+}
+
+.welcome {
+    color: #6d95fc;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.045px;
+    text-transform: uppercase;
+}
+
+.we_are {
+    width: 819px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 111.49%; /* 89.192px */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.lorem {
+    width: 697px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.btn {
+    display: flex;
+    width: 200px;
+    padding: 10px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 3px solid #6d95fc;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.465px;
+    text-transform: uppercase;
+}
+
+.about_us {
+    width: 100%;
+    height: 806px;
+    background-image: url(/lap6/assets/img/—Pngtree—artificial\ intelligence\ management\ system\ robot_5339376\ 1.png);
+    background-repeat: no-repeat;
+}
+
+.about_content {
+    display: flex;
+    width: 589px;
+    height: 493px;
+    padding-bottom: 37px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+    margin-top: 178px;
+    margin-left: 988px;
+}
+
+.about {
+    width: 136px;
+    height: 35px;
+    color: #6d95fc;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.045px;
+    text-transform: uppercase;
+}
+
+.we_bring {
+    width: 614px;
+    height: 114px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.5%; /* 59.76px */
+    text-transform: capitalize;
+}
+
+.we_love {
+    color: #6d95fc;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.085px;
+    text-transform: capitalize;
+}
+
+.about_lorem {
+    width: 589px;
+    height: 132px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 166.5%; /* 34.965px */
+    letter-spacing: 0.84px;
+}

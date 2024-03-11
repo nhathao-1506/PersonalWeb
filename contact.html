@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+        <link rel="stylesheet" href="./assets/css/contact.css" />
+        <title>Contact</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="header_logo">
+                    <p style="color: white; font-size: 40px; margin-top: 30px">
+                        CONTACT ME
+                    </p>
+                </div>
+                <div
+                    style="
+                        border-bottom: 1px solid #ffff;
+                        height: 30px;
+                        width: 800px;
+                    "
+                ></div>
+                <div>
+                    <ul class="nav">
+                        <li><a class="type" href="./index.html">Home</a></li>
+                        <li>
+                            <a class="type" href="./about.html">About Me</a>
+                        </li>
+                        <li><a class="type" href="./lap4.html">lap4</a></li>
+                        <li>
+                            <a class="type" href="">laps</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a class="type" href="">ex1</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a
+                                                class="type"
+                                                href="./ex1_design.html"
+                                                >Design</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                class="type"
+                                                href="./ex1.html
+                                            "
+                                                >Implementation</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="type" href="./ex2.html">ex2</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a
+                                                class="type"
+                                                href="./ex2_design.html"
+                                                >Design</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                class="type"
+                                                href="./ex2.html
+                                            "
+                                                >Implementation</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="type" href="./contact.html">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <div class="wrapper centered">
+                        <article class="letter">
+                            <div class="side">
+                                <h1>Contact us</h1>
+                                <p>
+                                    <textarea
+                                        placeholder="Your message"
+                                    ></textarea>
+                                </p>
+                            </div>
+                            <div class="side">
+                                <p>
+                                    <input
+                                        type="text"
+                                        placeholder="Your name"
+                                    />
+                                </p>
+                                <p>
+                                    <input
+                                        type="email"
+                                        placeholder="Your email"
+                                    />
+                                </p>
+                                <p>
+                                    <button id="sendLetter">Send</button>
+                                </p>
+                            </div>
+                        </article>
+                        <div class="envelope front"></div>
+                        <div class="envelope back"></div>
+                    </div>
+                    <p
+                        style="margin-left: 625px; color: #ffff"
+                        class="result-message centered"
+                    >
+                        Thank you for your message
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script>
+            function addClass() {
+                document.body.classList.add("sent");
+            }
+
+            sendLetter.addEventListener("click", addClass);
+        </script>
+    </body>
+</html>

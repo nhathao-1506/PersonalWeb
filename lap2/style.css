@@ -1,0 +1,274 @@
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+/* header */
+.header {
+    max-width: 100%;
+}
+.h1 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+}
+.p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.header__content {
+    position: relative;
+    top: -30px;
+    width: 80%;
+    height: 120px;
+    text-align: center;
+    background-image: linear-gradient(to right, #1097ed, #3366ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic {
+    margin-left: 60px;
+    width: 20%;
+    height: 220px;
+    clip-path: polygon(-200% 0%, 300% 0%, 50% 100%);
+    background: #526eff;
+    z-index: 2;
+}
+.img {
+    width: 150%;
+    height: 120%;
+    object-fit: contain;
+    position: relative;
+}
+/* end header */
+
+/* main */
+.main {
+    display: flex;
+    width: 100%;
+    margin-top: -60px;
+}
+.main__wrapper {
+    display: flex;
+}
+/* about me */
+.about_me {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #1bb7ff, #564ecb);
+    z-index: 1;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.language_h3 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.contact {
+    margin-top: 80px;
+    width: 100%;
+}
+.item {
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: #526eff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.contact_item {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+.contact_p {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+.phone {
+    margin-right: 15px;
+}
+.mail {
+    height: 20px;
+    width: 30px;
+    margin-right: 15px;
+}
+.linkedin {
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+}
+.in {
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.about_me_h2,
+.contact_h2 {
+    text-align: center;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+.contact_h3 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.skill_img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.skill_icon {
+    width: 70px;
+    height: 60px;
+}
+.tag {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.progress-wrap {
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #e0e0e0;
+}
+.progress {
+    width: 50%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #1bb7ff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.passion_icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.about_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.about_dot-right {
+    border-top: 10px dotted #fff;
+    height: 0px;
+    width: 1%;
+    margin-right: 20px;
+}
+.about_dot-left {
+    border-top: 10px dotted #fff;
+    height: 0px;
+    width: 1%;
+    margin-left: 15px;
+}
+.about_dot {
+    border-top: 2px dotted #fff;
+    height: 0px;
+    width: 40px;
+}
+.about_skill {
+    border-top: 2px dotted #fff;
+    height: 0px;
+    width: 80px;
+}
+.about_language {
+    border-top: 2px dotted #fff;
+    height: 0px;
+    width: 55px;
+}
+.about_passion {
+    border-top: 2px dotted #fff;
+    height: 0px;
+    width: 65px;
+}
+.skill{
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+/* end about me */
+
+/* content */
+.content {
+    width: 60%;
+    margin-left: 100px;
+}
+.profile_p {
+    text-align: justify;
+    font-family: "Raleway", sans-serif;
+}
+.profile_h3 {
+    color: #22386c;
+    font-family: 'Roboto', sans-serif;
+}
+.content_img {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.content_h2 {
+    color: #584ecb;
+    font-family: "Montserrat", sans-serif;
+}
+.content_dot {
+    border-top: 10px dotted #1bb7ff;
+    height: 0px;
+    width: 100%;
+    margin-left: 15px;
+}
+.profile-item__date {
+    font-family: 'Roboto', sans-serif;
+}
+.profile-item__desc{
+    font-family: 'Roboto', sans-serif;
+}
+.profile-list {
+    margin-bottom: 10px;
+}
+.profile-item {
+    margin: 15px 0 0px 10px;
+}
+.profile-item__row {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.profile-item__page {
+    margin-left: 58px;
+}
+.profile-item__row.row {
+    position: relative;
+}
+.profile-item__straight {
+    position: absolute;
+    left: 18px;
+    width: 3px;
+    height: 40px;
+    background-color: #10255e;
+}
+/* end content */
+/* end main */

@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins";
+}
+
+.header {
+    display: flex;
+    width: 1487px;
+    height: 736px;
+    justify-content: center;
+    align-items: center;
+    background: #e6f0ff;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38px;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+.menu {
+    color: rgba(79, 83, 97, 1);
+    width: 406px;
+    height: 21px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 64px;
+    gap: 28px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 369px;
+    gap: 18px;
+}
+
+.rect {
+    color: white;
+    width: 98px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: rgba(15, 27, 76, 1);
+    border-radius: 80px;
+}
+
+.header_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 559px;
+    height: 371px;
+    flex-shrink: 0;
+    margin: 0px 0px 0px 165px;
+}
+
+.conten_button {
+    width: 170px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #0f1b4c;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.house_illustration {
+    width: 584px;
+    height: 619px;
+    flex-shrink: 0;
+    margin: 35px 65px 0px 67px;
+}
+
+.client_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 70px;
+}
+
+
